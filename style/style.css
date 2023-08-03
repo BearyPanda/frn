@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner{
+	 width: 100%; 
+}
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+
+#product{
+	width: 100%; min-height: 600px; background-image: url("../img/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center bottom
+}
+
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+
+.vien{
+	width: 100%; border: 2px solid #FFFFFF; text-align: center; padding: 10px
+}
+
+.vien p a{
+	color: darkred; text-decoration: none
+}
+
+.vien-red{
+	width: 100%; border: 1px solid darkred; text-align: center; padding: 10px
+}
+
+.vien-red p a{
+	color: darkred; text-decoration: none
+}
+
+.name-product{
+	float: left
+}
+
+.price{
+	float: right; color: red
+}
+
+.shadow {
+	width: 100%; min-height: 300px; padding: 30px; box-shadow: 5px 5px 5px lightgray; border: 1px solid lightgray
+}
+
+.form-control {
+	width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid gray
+}
+
+.pt-50{ padding-top: 50px}
+
+.btn-fill-primary
+{background-color:#F87503;padding: 10px 20px;color: #fff;border-radius: 5px;cursor: pointer;text-transform: uppercase;border: 2px solid #F87503;transition: all .5s
+}
+
+.btn-outline-primary{
+    border: 2px solid #F87503; background: none;padding: 10px 20px;color: #F87503;border-radius: 5px;cursor: pointer;text-transform: uppercase;transition: all .5s
+}
+
+.text-black{
+	color: black
+}

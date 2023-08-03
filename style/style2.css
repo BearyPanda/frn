@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; color: #666666; font-size: 16px;margin: 0
+}
+
+header{
+	left: 0; z-index: 100; min-height: 50px; width: 100%;
+
+}
+.top-bar{
+	width: 100%; height: 50px; border-bottom: 1px solid #B5B5B5; color: #ADABAB; position: absolute; top: 0; left: 0; z-index: 100
+}
+.top-bar span{
+	color: #494747
+}
+.ml-10{margin-left: 10px}
+.logo{ padding-top: 10px; width: 70%}
+.img-10{width: 25px; height: 25px; line-height: 100px; padding-left: 10}
+.menu{line-height: 55px}
+.menu ul{
+	 padding: 0; margin: 0; list-style: none; display: flex;
+}
+.icontop{
+	position: relative;
+}
+.icontop2{position: absolute; left: 200px; line-height: 55px;}
+
+.icontop2 a{
+	margin: 0 10px
+}
+.menu ul li a{text-decoration: none; padding: 0px 20px; color: darkgray; display: block }
+
+
+.menu ul li{position:relative;}
+
+.menu ul li a:hover {
+	background-color: #945336; color: white; text-transform: uppercase; border-radius: 10px
+}
+
+.box-dad {position: relative
+	
+}
+
+
+
+.border{
+	border: 3px solid #FF9F35; border-radius: 10px; overflow: hidden;
+}
+
+.border h2{
+	text-align: left
+}
+
+.img-90{ width: 90%; height: auto; border-radius: 10px; transform: rotate(10deg) translateY(70px); transition: all 1s;}
+
+.border:hover .img-90{
+	transform: rotate(0deg) translateY(0px)
+}
+.container{ width: 70%; margin: 0 auto}
+
+.container2{ width: 1140px; margin: auto; top: 50%; min-height: 50px}
+
+.text-camdo h1{
+	color: coral;text-align: center
+}
+
+.justify-center{
+	justify-content: center
+}
+
+footer {
+	width: 100%; min-height: 450px; background-image: url("../../../Desktop/Desert Gems/Banner2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+
+.sp {
+	position: relative; overflow: hidden
+}
+.vien-nau {
+	border: 1px solid #945633; min-height: 200px; padding: 15px
+}
+.icon {
+	position: absolute; width: 80%; height: 50px; left: 10%; top: 100%; display: flex; justify-content: space-around; transition: all 0.7s
+}
+.icon a {
+	text-decoration: none; width: 45px; height: 45px; background-color: #666666; border-radius: 50%; display: flex; justify-content: center; align-items: center; color: white
+}
+.icon a:hover {
+	background-color: #945633
+}
+.sp:hover .icon {
+	top: 30%
+}
+.sp img {
+	transition: all 0.8s
+}
+.sp:hover img {
+	transform: scale(0.8); opacity: 0.5
+}
+
+.text-nau {
+	color: #945633
+}
